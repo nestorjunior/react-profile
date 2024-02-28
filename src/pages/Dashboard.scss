@@ -1,0 +1,28 @@
+.card {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image img {
+  transition: all 0.5s;
+  border-radius: 50%!important;
+}
+
+.card:hover .image img {
+  transform: scale(1.5)
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold
+}
+
+.idd {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.text span {
+  font-size: 13px;
+  font-weight: 500
+}

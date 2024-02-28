@@ -1,0 +1,48 @@
+.signupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  width: 100%;
+
+  form {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 35px;
+  }
+  
+  a {
+    color: #000!important;
+    align-self: flex-end;
+    text-decoration: none!important;
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  .logoStar {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+  }
+  
+  h2 {
+    font-weight: 900!important;
+    font-size: 30px!important;
+    padding-left: 0!important;
+    margin-left: 0!important;
+    margin-bottom: 25px!important;
+  }
+  
+  label {
+    padding-left: 0!important;
+  }
+  
+  input.form-control {
+    margin-top: 5px;
+  }
+  
+}
+
